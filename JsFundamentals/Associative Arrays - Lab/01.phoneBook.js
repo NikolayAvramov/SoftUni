@@ -4,9 +4,9 @@ function phoneBook(data) {
     let [name, phoneNumber] = el.split(" ");
     res[name] = phoneNumber;
   }
-  for (let key in res) {
-    console.log(`${key} -> ${res[key]}`);
-  }
+   for (let key in res) {
+     console.log(`${key} -> ${res[key]}`);
+   }
 }
 phoneBook([
   "Tim 0834212554",

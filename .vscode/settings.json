@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.endOfLine": "auto",
+    "prettier.insertPragma": true,
+    "prettier.quoteProps": "consistent",
+    "prettier.tabWidth": 6,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

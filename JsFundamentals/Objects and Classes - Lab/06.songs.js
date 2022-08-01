@@ -10,11 +10,11 @@ function song(arr) {
   let searchetType = arr.pop();
   let songsArr = [];
   for (let currLine of arr) {
-    let [type, name, time] = currLine.split("_");
+    let [type, name, time] = currLine.split('_');
     let currentSong = new Songs(type, name, time);
     songsArr.push(currentSong);
   }
-  if (searchetType == "all") {
+  if (searchetType == 'all') {
     for (let el of songsArr) {
       console.log(el.name);
     }
@@ -28,8 +28,8 @@ function song(arr) {
 }
 song([
   3,
-  "favourite_DownTown_3:14",
-  "favourite_Kiss_4:16",
-  "favourite_Smooth Criminal_4:01",
-  "favourite",
+  'favourite_DownTown_3:14',
+  'favourite_Kiss_4:16',
+  'favourite_Smooth Criminal_4:01',
+  'favourite',
 ]);

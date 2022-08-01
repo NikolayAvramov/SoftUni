@@ -4,9 +4,9 @@ function addressBook(input) {
     let [name, address] = el.split(":");
     obj[name] = address;
   }
-  let unsortedKey = Object.keys(obj);
+      let unsortedKey = Object.keys(obj);
 
-  let sortedKeys = unsortedKey.sort();
+      let sortedKeys = unsortedKey.sort();
 
   for (let key of sortedKeys) {
     console.log(`${key} -> ${obj[key]}`);
