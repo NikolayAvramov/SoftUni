@@ -1,0 +1,10 @@
+{
+	"files.autoSave": "onFocusChange",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
+	"editor.formatOnSaveMode": "file",
+	"prettier.tabWidth": 4,
+	"prettier.endOfLine": "auto",
+	"prettier.htmlWhitespaceSensitivity": "strict",
+	"javascript.format.insertSpaceAfterConstructor": true
+}

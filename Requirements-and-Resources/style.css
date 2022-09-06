@@ -1,0 +1,210 @@
+/*header*/
+/* nav */
+.navigation {
+	width: 100%;
+}
+.navigation p {
+	font-size: 22px;
+	display: inline-block;
+	width: 1237px;
+	margin-left: 33px;
+	color: #5a5a5a;
+}
+
+.navigation p span {
+	color: #50b9e1;
+}
+.navigation nav {
+	display: inline-block;
+}
+.navigation nav ul li {
+	display: inline-block;
+	padding-right: 15px;
+}
+.navigation nav ul li a {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+.navigation nav ul {
+	padding: 0;
+}
+.navigation nav ul :nth-child(6) a {
+	border: 1px solid #5a5a5a;
+	border-radius: 50%;
+	padding: 5px;
+}
+.navigation nav ul li a:hover {
+	color: #50b9e1;
+}
+
+/* head */
+
+.head {
+	background-image: url(./Images/kids_main.jpg);
+	width: 100%;
+}
+
+.head h1 {
+	color: white;
+	font-size: 66px;
+	padding-top: 600px;
+	width: 495px;
+	padding-left: 130px;
+	margin-top: 0;
+}
+.head button {
+	font-size: 26px;
+	background: transparent;
+	border: white solid 2px;
+	margin-bottom: 400px;
+	margin-left: 130px;
+}
+.head button:hover {
+	background-color: #50b9e1;
+	border-color: #50b9e1;
+}
+
+.head button a {
+	color: white;
+	text-decoration: none;
+}
+/* main */
+
+.Welcome {
+	width: 60%;
+	margin-left: 384px;
+}
+h2 {
+	font-size: 32px;
+	font-style: italic;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #5a5a5a;
+}
+.Welcome p {
+	font-family: sans-serif;
+	text-align: center;
+	color: #5a5a5a;
+}
+.Welcome span {
+	color: #50b9e1;
+}
+
+/*offers  */
+
+.offers {
+	margin-top: 60px;
+	background-color: #50b9e1;
+}
+.offers ul li img {
+	width: 70px;
+	padding-left: 180px;
+}
+.offers ul li {
+	display: inline-block;
+	width: 23%;
+	padding-right: 80px;
+	margin-left: 90px;
+	padding-top: 40px;
+}
+.offers h2 {
+	padding: 40px 0;
+	color: white;
+}
+.offers h3 {
+	text-align: center;
+}
+.offers p {
+	text-align: center;
+}
+.offers a {
+	text-decoration: none;
+	color: white;
+}
+/* camps */
+
+.text {
+	text-align: center;
+	font-family: sans-serif;
+	width: 40%;
+	padding-left: 560px;
+}
+.camps ul {
+	padding: 0;
+}
+.camps ul li {
+	width: 29%;
+	display: inline-block;
+	padding-right: 95px;
+	padding-left: 12px;
+}
+.camps ul li img {
+	width: 100%;
+	height: 350px;
+}
+.camps ul :nth-child(3) {
+	padding-right: 0;
+}
+.info {
+	border-bottom: 2px solid #5a5a5a;
+	font-family: sans-serif;
+	color: #5a5a5a;
+}
+.name {
+	display: inline-block;
+}
+.name h4 {
+	margin: 0;
+}
+.name p {
+	font-size: 14px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+.price {
+	display: inline-block;
+	margin-left: 190px;
+	font-size: 36px;
+	background-color: #50b9e1;
+	margin-bottom: 5px;
+	color: white;
+	float: right;
+}
+
+.camps button {
+	color: #50b9e1;
+	font-size: 18px;
+	border: 2px solid #50b9e1;
+	background: transparent;
+}
+.camps button:hover {
+	background-color: #50b9e1;
+	color: white;
+}
+.t {
+	font-family: sans-serif;
+	width: 80%;
+	color: #5a5a5a;
+}
+/* footer */
+footer {
+	background-color: #50b9e1;
+	color: #5a5a5a;
+}
+footer p {
+	padding-left: 180px;
+	padding-right: 1100px;
+	display: inline-block;
+}
+footer ul {
+	display: inline-block;
+}
+footer ul li {
+	display: inline-block;
+	border: 2px solid #5a5a5a;
+	border-radius: 50%;
+	padding: 4px;
+}
+footer ul li a {
+	color: #5a5a5a;
+}

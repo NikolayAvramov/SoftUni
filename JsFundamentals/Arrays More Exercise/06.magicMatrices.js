@@ -1,16 +1,28 @@
 function magicMatrix(arr) {
-  let isMagic = false;
+  let isEqual = true;
+
   for (let i = 0; i < arr.length; i++) {
-    let sum = arr[i].map((x) => {
-      return (sum += x);
+    let currColonSum = 0;
+    let testArrSum = arr[0].reduce((a, b) => {
+      return a + b;
     });
-    if (sum == arr(i[0])) {
-      console.log("sdf");
+    for (let j = 0; j < arr.length; j++) {
+      currColonSum += arr[j][i];
+      let currArrSum = arr[i].reduce((a, b) => {
+        return a + b;
+      });
+      if (currArrSum !== testArrSum) {
+        isEqual = false;
+      }
+    }
+    if (testArrSum !== currColonSum) {
+      isEqual = false;
     }
   }
+  console.log(isEqual);
 }
 magicMatrix([
   [4, 5, 6],
   [6, 5, 4],
-  [5, 5, 5],
+  [6, 4, 5],
 ]);

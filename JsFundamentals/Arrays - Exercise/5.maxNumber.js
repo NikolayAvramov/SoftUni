@@ -15,7 +15,7 @@ function maxNum(arr) {
     }
   }
 
-  console.log(topArr.join(" "));
+  console.log(topArr.join(' '));
 }
 // maxNum([27, 19, 42, 2, 13, 45, 48]);
 // maxNum([1, 4, 3, 2]);
