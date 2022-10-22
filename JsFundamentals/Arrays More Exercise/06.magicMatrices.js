@@ -3,13 +3,13 @@ function magicMatrix(arr) {
 
   for (let i = 0; i < arr.length; i++) {
     let currColonSum = 0;
-    let testArrSum = arr[0].reduce((a, b) => {
-      return a + b;
+    let testArrSum = arr[0].reduce((acc, num) => {
+      return acc + num;
     });
     for (let j = 0; j < arr.length; j++) {
       currColonSum += arr[j][i];
-      let currArrSum = arr[i].reduce((a, b) => {
-        return a + b;
+      let currArrSum = arr[i].reduce((acc, num) => {
+        return acc + num;
       });
       if (currArrSum !== testArrSum) {
         isEqual = false;
@@ -22,7 +22,7 @@ function magicMatrix(arr) {
   console.log(isEqual);
 }
 magicMatrix([
-  [4, 5, 6],
-  [6, 5, 4],
-  [6, 4, 5],
+  [5, 5, 6],
+  [5, 6, 5],
+  [6, 5, 5],
 ]);

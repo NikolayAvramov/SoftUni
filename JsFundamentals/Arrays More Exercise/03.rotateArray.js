@@ -4,7 +4,7 @@ function rotationArr(arr) {
     let lastEl = arr.pop();
     arr.unshift(lastEl);
   }
-  console.log(arr.join(" "));
+  console.log(arr.join(' '));
 }
-rotationArr(["1", "2", "3", "4", "2"]);
-rotationArr(["Banana", "Orange", "Coconut", "Apple", "15"]);
+rotationArr(['1', '2', '3', '4', '2']);
+rotationArr(['Banana', 'Orange', 'Coconut', 'Apple', '15']);
