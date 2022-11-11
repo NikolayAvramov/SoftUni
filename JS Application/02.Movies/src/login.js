@@ -10,16 +10,20 @@ export function loginView() {
 }
 function logInRec(event) {
 	event.preventDefault();
-
+	let isExist = false;
 	const formData = new FormData(event.target);
 	const {email, password} = Object.fromEntries(formData);
-	Object.entries(sessionStorage).forEach((user) => {
+	let username = Object.entries(sessionStorage).forEach((user) => {
 		if (email == user[0] && password == user[1]) {
+			isExist = true;
 			console.log("съвпадение");
-		} else {
-			alert("greshka");
 		}
 	});
+	if (isExist) {
+		console.log("pozdrawleniq");
+	} else {
+		alert("greshka");
+	}
 
 	// postLogin1(body);
 }
