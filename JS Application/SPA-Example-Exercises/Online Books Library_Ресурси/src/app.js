@@ -1,0 +1,24 @@
+import {default as page} from "../node_modules/page/page.mjs";
+import {userMiddleware} from "./middleware/isLogged.js";
+import {renderContent, renderNavigation} from "./middleware/render.js";
+import {showCreate} from "./views/addBookView.js";
+import {showDashboard} from "./views/dashboardView.js";
+import {showDetails} from "./views/detailsView.js";
+import {editBook} from "./views/editView.js";
+import {showLogin} from "./views/loginView.js";
+import {logoutView} from "./views/logoutView.js";
+import {showMyBook} from "./views/myBookView.js";
+import {showRegister} from "./views/registerView.js";
+
+page(userMiddleware);
+page(renderNavigation);
+page(renderContent);
+page("/login", showLogin);
+page("/dashboard", showDashboard);
+page("/logout", logoutView);
+page("/register", showRegister);
+page("/myBook", showMyBook);
+page("/addBook", showCreate);
+page("/dashboard/:id", showDetails);
+page("/edit/:id", editBook);
+page.start();
